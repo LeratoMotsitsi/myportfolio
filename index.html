@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lerato Motsitsi - Data Science Portfolio</title>
+    <meta name="description" content="Aspiring Data Scientist with expertise in Python, SQL, and analytics. Currently pursuing ALX Data Science Certificate.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">LM</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="mobile-menu-btn" aria-label="Open mobile menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1>Lerato Motsitsi</h1>
+                <p class="hero-subtitle">
+                    Aspiring Data Scientist with a foundation in <strong>Python, SQL, and analytics</strong>. 
+                    Currently pursuing the <strong>ALX Data Science Certificate (2025–2026)</strong>. 
+                    Experienced in product management, reporting, and process automation with strong 
+                    leadership and problem-solving skills.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        View Projects
+                        <span>→</span>
+                    </a>
+                    <a href="/assets/Lerato_Motsitsi_Resume.pdf" class="btn btn-secondary" download>
+                        Download CV
+                        <span>📄</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="profile-card">
+                    <img src="images/leratom.jpg" alt="A photo of Lerato Motsitsi" class="profile-avatar">
+                    <h3>Data Scientist</h3>
+                    <div class="contact-info">
+                        📍 Johannesburg, South Africa<br>
+                        📧 <a href="mailto:lerato.motsitsi01@gmail.com">lerato.motsitsi01@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    Passionate about transforming data into actionable insights and building 
+                    data-driven solutions that make a real impact.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an aspiring data scientist with a strong foundation in analytics and 
+                        a passion for solving complex problems through data. Currently pursuing 
+                        my ALX Data Science Certificate, I bring experience from product management 
+                        and operations where I've automated workflows, built reporting systems, 
+                        and led cross-functional teams.
+                    </p>
+                    <p>
+                        My background in customer operations at Level Finance has given me valuable 
+                        insights into how data drives business decisions. I've designed workflows, 
+                        implemented automation solutions, and created dashboards that improved 
+                        response times and customer retention.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Jupyter</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Anaconda</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Canva</span>
+                            <span class="skill-tag">UX Workflow</span>
+                            <span class="skill-tag">Freshchat Automation</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Mentorship</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Project Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" style="background: var(--bg-secondary);">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    A showcase of my data science projects, from exploratory analysis 
+                    to machine learning and business intelligence solutions.
+                </p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="eda">EDA</button>
+                <button class="filter-btn" data-filter="ml">ML</button>
+                <button class="filter-btn" data-filter="bi">BI</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="bi">
+                    <div class="project-thumbnail">💧</div>
+                    <div class="project-content">
+                        <h3 class="project-title">National Water Crisis Analytics</h3>
+                        <p class="project-description">
+                            Comprehensive BI dashboard analyzing water crisis patterns across regions. 
+                            Features KPIs, trend analysis, and actionable insights for policy makers.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Power BI</span>
+                            <span class="project-tag">SQL</span>
+                            <span class="project-tag">Data Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">📊 View Dashboard</a>
+                            <a href="#" class="project-link">📋 Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="eda">
+                    <div class="project-thumbnail">🚜</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Digital Twin Farm Simulation</h3>
+                        <p class="project-description">
+                            Python-based farm operations simulation with EDA, predictive models, 
+                            and what-if scenario analysis for optimizing agricultural processes.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Jupyter</span>
+                            <span class="project-tag">Simulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">💻 GitHub Repo</a>
+                            <a href="#" class="project-link">📓 Notebook</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <div class="project-thumbnail">🤖</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Predictive Modeling Suite</h3>
+                        <p class="project-description">
+                            Classification and regression models using scikit-learn. Includes 
+                            performance metrics (AUC/F1/MAE), error analysis, and model interpretation.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">scikit-learn</span>
+                            <span class="project-tag">Machine Learning</span>
+                            <span class="project-tag">Model Evaluation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">💻 GitHub Repo</a>
+                            <a href="#" class="project-link">📊 Results</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="bi">
+                    <div class="project-thumbnail">📈</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Customer Operations Analytics</h3>
+                        <p class="project-description">
+                            Workflow optimization and automation analysis from Level Finance. 
+                            Visualizes impact on response times, retention, and operational efficiency.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Excel</span>
+                            <span class="project-tag">Power BI</span>
+                            <span class="project-tag">Process Automation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">📊 Dashboard</a>
+                            <a href="#" class="project-link">📋 Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Experience Highlights</h2>
+                <p class="section-subtitle">
+                    Building products, leading teams, and driving measurable impact through data and automation.
+                </p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Junior Product Manager</h3>
+                        <div class="experience-company">Level Finance</div>
+                        <div class="experience-period">2024 – Present</div>
+                    </div>
+                    <div class="experience-content">
+                        <ul class="experience-bullets">
+                            <li>Conducted <strong>100+ client health checkups</strong>, synthesizing feedback into actionable product improvements</li>
+                            <li>Designed workflows and documentation that reduced onboarding time by 40%</li>
+                            <li>Created wireframes and prototypes for 3 major feature releases</li>
+                            <li>Implemented <strong>Freshchat bots and automations</strong> improving response times by 60%</li>
+                            <li>Developed education content design framework adopted company-wide</li>
+                        </ul>
+                        <div class="experience-outcomes">
+                            <span class="outcome-tag">40% faster onboarding</span>
+                            <span class="outcome-tag">60% improved response time</span>
+                            <span class="outcome-tag">100+ client assessments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Customer Success/Experience Intern</h3>
+                        <div class="experience-company">Level Finance</div>
+                        <div class="experience-period">2023 – 2024</div>
+                    </div>
+                    <div class="experience-content">
+                        <ul class="experience-bullets">
+                            <li>Developed retention strategy increasing customer lifetime value by 25%</li>
+                            <li>Redesigned onboarding process with improved branding and wireframes</li>
+                            <li>Built <strong>Excel automation reporting</strong> system reducing manual work by 80%</li>
+                            <li>Managed social media engagement driving 150% increase in follower growth</li>
+                            <li>Created customer feedback loop improving product satisfaction scores</li>
+                        </ul>
+                        <div class="experience-outcomes">
+                            <span class="outcome-tag">25% higher retention</span>
+                            <span class="outcome-tag">80% less manual work</span>
+                            <span class="outcome-tag">150% social growth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Tutor & WITS TTP Lead/Mentor</h3>
+                        <div class="experience-company">Life Science & Math | University of Witwatersrand</div>
+                        <div class="experience-period">2022 – 2024</div>
+                    </div>
+                    <div class="experience-content">
+                        <ul class="experience-bullets">
+                            <li><strong>Mentored 50+ students</strong> in Life Sciences and Mathematics</li>
+                            <li>Led WITS Tutor Training Program improving tutor effectiveness by 35%</li>
+                            <li>Developed personalized learning strategies increasing pass rates by 45%</li>
+                            <li>Coordinated cross-departmental tutoring initiatives</li>
+                            <li>Recognized for outstanding leadership and measurable student improvements</li>
+                        </ul>
+                        <div class="experience-outcomes">
+                            <span class="outcome-tag">50+ students mentored</span>
+                            <span class="outcome-tag">45% higher pass rates</span>
+                            <span class="outcome-tag">Leadership recognition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Awards Section -->
+    <section id="education" class="section" style="background: var(--bg-secondary);">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Awards</h2>
+                <p class="section-subtitle">
+                    Academic excellence and recognition for leadership and achievement.
+                </p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-degree">BSHc (Hons) Chemical Pathology</h3>
+                    <div class="education-school">University of Witwatersrand</div>
+                    <div class="education-year">2023</div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">🧬</div>
+                    <h3 class="education-degree">BSc Genetics & Medical Cell Biology</h3>
+                    <div class="education-school">University of Witwatersrand</div>
+                    <div class="education-year">2020 – 2022</div>
+                </div>
+            </div>
+            <div class="awards-section">
+                <h3 class="awards-title">Awards & Recognition</h3>
+                <div class="awards-grid">
+                    <div class="award-item">
+                        <span class="award-icon">🏆</span>
+                        <div class="award-content">
+                            <h4>University Council Merit Scholarship</h4>
+                            <p>2021 • Academic Excellence Recognition</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-icon">🥇</span>
+                        <div class="award-content">
+                            <h4>Golden Key International Honour Society</h4>
+                            <p>2020 • Top 15% Academic Performance</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-icon">👥</span>
+                        <div class="award-content">
+                            <h4>Leadership & Sports Awards</h4>
+                            <p>Multiple recognitions for leadership excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Learning</h2>
+                <p class="section-subtitle">
+                    Continuous learning journey in data science, analytics, and technology. Click on certificates to view credentials.
+                </p>
+            </div>
+            
+            <!-- Certificate Filter Tabs -->
+            <div class="cert-filters">
+                <button class="cert-filter-btn active" data-filter="all">All Certificates</button>
+                <button class="cert-filter-btn" data-filter="completed">Completed</button>
+                <button class="cert-filter-btn" data-filter="in-progress">In Progress</button>
+                <button class="cert-filter-btn" data-filter="planned">Planned</button>
+            </div>
+
+            <div class="cert-grid">
+                <!-- ALX Data Science Certificate -->
+                <div class="cert-card clickable" data-category="in-progress" data-cert="alx-data-science">
+                    <div class="cert-status in-progress">In Progress</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">🎓</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">View Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">ALX Data Science Certificate</h3>
+                        <p class="cert-issuer">ALX Africa</p>
+                        <p class="cert-year">2025–2026</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Machine Learning</span>
+                            <span class="skill-badge">Statistics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Foundations -->
+                <div class="cert-card clickable" data-category="completed" data-cert="professional-foundations">
+                    <div class="cert-status completed">Completed</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">✅</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">View Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Professional Foundations</h3>
+                        <p class="cert-issuer">ALX Africa</p>
+                        <p class="cert-year">January 2025</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">Communication</span>
+                            <span class="skill-badge">Leadership</span>
+                            <span class="skill-badge">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analytics -->
+                <div class="cert-card clickable" data-category="completed" data-cert="data-analytics">
+                    <div class="cert-status completed">Completed</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">📊</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">View Certificate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Data Analytics Fundamentals</h3>
+                        <p class="cert-issuer">ALX Africa</p>
+                        <p class="cert-year">January 2025</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Python Programming -->
+                <div class="cert-card clickable" data-category="in-progress" data-cert="python-programming">
+                    <div class="cert-status in-progress">In Progress</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">🐍</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">View Progress</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Python Programming</h3>
+                        <p class="cert-issuer">ALX Africa</p>
+                        <p class="cert-year">2025 • 75% Complete</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">pandas</span>
+                            <span class="skill-badge">numpy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="cert-card clickable" data-category="planned" data-cert="machine-learning">
+                    <div class="cert-status planned">Planned</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">🤖</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">Coming Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Machine Learning Specialization</h3>
+                        <p class="cert-issuer">ALX Africa</p>
+                        <p class="cert-year">2026</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">scikit-learn</span>
+                            <span class="skill-badge">TensorFlow</span>
+                            <span class="skill-badge">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Power BI Certification -->
+                <div class="cert-card clickable" data-category="planned" data-cert="power-bi">
+                    <div class="cert-status planned">Planned</div>
+                    <div class="cert-preview">
+                        <div class="cert-placeholder">
+                            <span class="cert-icon-large">📈</span>
+                            <div class="cert-overlay">
+                                <span class="view-cert">Coming Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Microsoft Power BI Data Analyst</h3>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-year">2025</p>
+                        <div class="cert-skills">
+                            <span class="skill-badge">Power BI</span>
+                            <span class="skill-badge">DAX</span>
+                            <span class="skill-badge">Business Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    <!-- Certificate Lightbox Modal -->
+    <div id="cert-modal" class="cert-modal" role="dialog" aria-labelledby="cert-modal-title" aria-hidden="true">
+        <div class="cert-modal-overlay" aria-label="Close certificate viewer"></div>
+        <div class="cert-modal-content">
+            <div class="cert-modal-header">
+                <h3 id="cert-modal-title">Certificate Viewer</h3>
+                <button class="cert-modal-close" aria-label="Close certificate viewer">&times;</button>
+            </div>
+            <div class="cert-modal-body">
+                <div class="cert-image-container">
+                    <img id="cert-modal-image" src="" alt="Certificate" />
+                    <div class="cert-placeholder-large" id="cert-placeholder-large">
+                        <span class="cert-icon-xl">📜</span>
+                        <h4>Certificate Preview</h4>
+                        <p>Upload your certificate image to <code>/assets/certificates/</code> to display here</p>
+                        <div class="cert-actions">
+                            <button class="btn btn-primary" onclick="downloadCertificate()">
+                                Download Certificate
+                                <span>⬇️</span>
+                            </button>
+                            <button class="btn btn-secondary" onclick="verifyCertificate()">
+                                Verify Credential
+                                <span>🔍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-details">
+                    <div class="cert-detail-item">
+                        <strong>Certificate:</strong>
+                        <span id="cert-detail-title">-</span>
+                    </div>
+                    <div class="cert-detail-item">
+                        <strong>Issued by:</strong>
+                        <span id="cert-detail-issuer">-</span>
+                    </div>
+                    <div class="cert-detail-item">
+                        <strong>Date:</strong>
+                        <span id="cert-detail-date">-</span>
+                    </div>
+                    <div class="cert-detail-item">
+                        <strong>Status:</strong>
+                        <span id="cert-detail-status">-</span>
+                    </div>
+                    <div class="cert-detail-item">
+                        <strong>Skills:</strong>
+                        <div id="cert-detail-skills"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">
+                    Ready to collaborate on data science projects or discuss opportunities? 
+                    I'd love to hear from you!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:lerato.motsitsi01@gmail.com">lerato.motsitsi01@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">💼</span>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/lerato-m-026820182" target="_blank">Connect with me</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">💻</span>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/LeratoMotsitsi" target="_blank">View my code</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <span class="contact-icon">📍</span>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <span>Johannesburg, South Africa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-card">
+                    <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/thank-you">
+                        <input type="hidden" name="form-name" value="contact">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="">Select a topic</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="project">Project Discussion</option>
+                                <option value="mentorship">Mentorship</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project, opportunity, or how I can help..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <span>→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/LeratoMotsitsi" class="social-link" aria-label="GitHub" target="_blank">
+                    <span>💻</span>
+                </a>
+                <a href="https://linkedin.com/in/lerato-m-026820182" class="social-link" aria-label="LinkedIn" target="_blank">
+                    <span>💼</span>
+                </a>
+                <a href="mailto:lerato.motsitsi01@gmail.com" class="social-link" aria-label="Email">
+                    <span>📧</span>
+                </a>
+            </div>
+            <p class="footer-text">
+                © 2025 Lerato Motsitsi • Last updated: September 2025 • Built with passion for data science and continuous learning
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
